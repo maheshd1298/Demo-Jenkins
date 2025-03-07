@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Number2') {
             steps {
-                sleep 60
+              echo "Hello Wakad"
             }
         }  // <-- Closing bracket added for stage 'Number2'
         
